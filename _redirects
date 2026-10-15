@@ -1,0 +1,13 @@
+# Netlify / Cloudflare Pages
+# www 로 들어와도 apex 로
+https://www.chaenggyeo.ai.kr/*    https://chaenggyeo.ai.kr/:splat    301!
+
+# 확장자 없이
+/login       /login.html       200
+
+# 앱 · 설명서는 Claude 아티팩트로 (로그인은 claude.ai 가 받음)
+/app         https://claude.ai/artifact/RetUcbpMHXX7CX64QYuY1X    302
+/guide       https://claude.ai/artifact/GzTHdvbU92Zr3b7i1Qi8Ej    302
+
+# 없는 주소
+/*           /404.html         404

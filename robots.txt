@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /login
+Disallow: /login.html
+Disallow: /app
+
+Sitemap: https://chaenggyeo.ai.kr/sitemap.xml
